@@ -1,0 +1,172 @@
+<div class="resume">
+  <header class="resume-header">
+    <h1>{{ site.name }}</h1>
+    <div class="contact-info">
+      <span>{{ site.location }}</span>
+      <span>{{ site.phone }}</span>
+      <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+      {% if site.linkedin_username %}
+      <a href="https://linkedin.com/in/{{ site.linkedin_username }}" target="_blank">LinkedIn</a>
+      {% endif %}
+      {% if site.github_username %}
+      <a href="https://github.com/{{ site.github_username }}" target="_blank">GitHub</a>
+      {% endif %}
+    </div>
+  </header>
+
+  <section class="resume-section">
+    <h2>Summary</h2>
+    <p>Senior Software Engineer with 9+ years of experience building scalable backend systems and infrastructure. Expert in Python, AWS, and DevOps. Proven leader in mentoring teams and driving technical projects from conception to delivery.</p>
+  </section>
+
+  <section class="resume-section">
+    <h2>Technical Summary</h2>
+    <div class="technical-summary">
+      <div class="skill-category">
+        <h3>Languages</h3>
+        <ul>
+          <li>Python</li>
+          <li>Golang</li>
+          <li>JavaScript/TypeScript</li>
+          <li>Ruby</li>
+          <li>SQL</li>
+        </ul>
+      </div>
+      <div class="skill-category">
+        <h3>Cloud & DevOps</h3>
+        <ul>
+          <li>AWS (EC2, S3, Lambda, Step Functions)</li>
+          <li>Kubernetes</li>
+          <li>Docker</li>
+          <li>Terraform</li>
+          <li>Nginx</li>
+        </ul>
+      </div>
+      <div class="skill-category">
+        <h3>Databases & Messaging</h3>
+        <ul>
+          <li>PostgreSQL</li>
+          <li>MySQL</li>
+          <li>MongoDB</li>
+          <li>Redis</li>
+          <li>RabbitMQ</li>
+          <li>Kafka</li>
+          <li>Elasticsearch</li>
+        </ul>
+      </div>
+      <div class="skill-category">
+        <h3>Frameworks & Tools</h3>
+        <ul>
+          <li>React</li>
+          <li>GraphQL</li>
+          <li>REST</li>
+          <li>Celery</li>
+          <li>Pytest</li>
+          <li>Jest</li>
+          <li>Git</li>
+          <li>Jira</li>
+          <li>Scrum/Agile</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="resume-section">
+    <h2>Professional Experience</h2>
+    
+    <div class="experience-item">
+      <div class="company-header">
+        <span class="company-name">Checkr</span>
+        <span class="date-range">Jul 2022 – Present</span>
+      </div>
+      <div class="job-title">Senior Software Engineer | Toronto, Canada</div>
+      <ul>
+        <li>Architected and optimized core platform infrastructure on AWS, supporting a 20% increase in concurrent background checks while maintaining 99.9% uptime</li>
+        <li>Automated security compliance checks within the CI/CD pipeline, reducing manual review time by 15 hours per sprint</li>
+        <li>Led the containerization of legacy services using Docker and Kubernetes, decreasing deployment failures by 30%</li>
+      </ul>
+    </div>
+
+    <div class="experience-item">
+      <div class="company-header">
+        <span class="company-name">Independent Consultant</span>
+        <span class="date-range">Dec 2021 – Jul 2022</span>
+      </div>
+      <div class="job-title">Senior DevOps/Software Engineer | Toronto, Canada</div>
+      <ul>
+        <li><strong>Client A (Music Events):</strong> Engineered a high-traffic web platform using React and Python, handling over 50,000 concurrent users during peak sales with sub-100ms latency</li>
+        <li><strong>Client B (FinTech):</strong> Developed a secure mortgage processing module using Golang and PostgreSQL, automating 75% of the manual underwriting steps and reducing loan approval times by 40%</li>
+        <li><strong>Client C (Internal Tooling):</strong> Designed an automated timesheet system with AWS Step Functions, eliminating 100% of manual data entry and saving 20+ person-hours per week</li>
+      </ul>
+    </div>
+
+    <div class="experience-item">
+      <div class="company-header">
+        <span class="company-name">Deliverect</span>
+        <span class="date-range">Oct 2020 – Nov 2021</span>
+      </div>
+      <div class="job-title">Lead Software Engineer | Toronto, Canada</div>
+      <ul>
+        <li>Led a 4-person team to integrate 5+ new POS and delivery channels (e.g., Uber Eats, DoorDash) into the core platform, increasing addressable market by 15%</li>
+        <li>Streamlined the customer support triage system by implementing a real-time event dashboard with Kafka and Elasticsearch, cutting average ticket resolution time by 25%</li>
+        <li>Mentored 3 junior engineers on software design patterns and testing best practices, improving team velocity by 20%</li>
+      </ul>
+    </div>
+
+    <div class="experience-item">
+      <div class="company-header">
+        <span class="company-name">BriteCore</span>
+        <span class="date-range">Feb 2019 – Oct 2020</span>
+      </div>
+      <div class="job-title">Software Engineer | Remote</div>
+      <ul>
+        <li>Migrated 3 monolithic services to a microservices architecture (Python, Kubernetes), improving system scalability and reducing build times by 50%</li>
+        <li>Implemented a comprehensive Pytest framework for API services, increasing test coverage from 45% to 85% and reducing production bugs by 60%</li>
+      </ul>
+    </div>
+
+    <div class="experience-item">
+      <div class="company-header">
+        <span class="company-name">Andela</span>
+        <span class="date-range">Nov 2018 – Jan 2019</span>
+      </div>
+      <div class="job-title">Senior Software Engineer | Remote</div>
+      <ul>
+        <li>Developed high-quality, testable software for client engagements</li>
+      </ul>
+    </div>
+
+    <div class="experience-item">
+      <div class="company-header">
+        <span class="company-name">TM30 Global Ltd</span>
+        <span class="date-range">Jun 2016 – Nov 2018</span>
+      </div>
+      <div class="job-title">Senior Software Engineer | Lagos, Nigeria</div>
+      <ul>
+        <li>Led a team to build products like an IVR advertising platform and lottery systems; mentored junior developers</li>
+      </ul>
+    </div>
+
+    <div class="experience-item">
+      <div class="company-header">
+        <span class="company-name">Traclist Software Company</span>
+        <span class="date-range">Nov 2014 – May 2016</span>
+      </div>
+      <div class="job-title">Software Engineer | Lagos, Nigeria</div>
+      <ul>
+        <li>Maintained applications and back-end services for an online marketplace</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="resume-section">
+    <h2>Education</h2>
+    <div class="experience-item">
+      <div class="company-header">
+        <span class="company-name">Ladoke Akintola University of Technology</span>
+        <span class="date-range">2012</span>
+      </div>
+      <div class="job-title">Bachelor of Technology, Electrical & Electronics Engineering | Ogbomosho, Nigeria</div>
+    </div>
+  </section>
+</div>
